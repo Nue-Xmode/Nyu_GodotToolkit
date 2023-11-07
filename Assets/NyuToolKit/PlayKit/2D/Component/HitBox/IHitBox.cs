@@ -3,8 +3,8 @@
     public interface IHitBox
     {
         /// <summary>
-        /// HitBox组件打击判定接口
+        /// 打击触发时实现者的行为
         /// </summary>
-        public void Hit();   
+        public void GetHit();   
     }
 }
